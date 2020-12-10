@@ -37,6 +37,8 @@ nav {
 }
 .xg-main__right {
     width: 65%;
+    display: flex;
+    align-items: flex-start;
 }
 .xg-link--white {
     color: #fff;
@@ -53,8 +55,9 @@ body {
     margin-bottom: 20px;
 }
 .xg-main__right-img {
-    width: 100%;
-    opacity: 0.9;
+    max-width: 600px;
+    height: 200px;
+    padding: 0 10px;
 }
 
 @media (max-width:900px){
