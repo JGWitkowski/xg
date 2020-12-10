@@ -66,6 +66,7 @@ body {
     }
     .xg-main__right {
         width: 100%;
+        display: none;
     }
     .xg-main {
         flex-wrap: wrap;
